@@ -1,0 +1,35 @@
+.song {
+  border: 1px solid red;
+  display: flex;
+  flex: 1;
+  min-height: 100px;
+  margin-top: 100px;
+  flex-direction: row;
+  position: relative;
+}
+
+.sections {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: space-around;
+  .section {
+    display: flex;
+    flex: 1;
+    border: 1px solid purple;
+  }
+}
+
+.bars {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: space-around;
+  .bar {
+    display: flex;
+    flex: 1;
+    border: 1px solid yellow;
+  }
+}
